@@ -10,4 +10,4 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
    ```
 2. OS Should be **Linux** or **macOS**
 3. Installation CUDA (≥10) - _This tutorial is for CUDA-11.4_
-  - Go to [NVIDIA Developer](https://developer.nvidia.com/cuda-downloads).
+   - Go to [NVIDIA Developer](https://developer.nvidia.com/cuda-downloads).
