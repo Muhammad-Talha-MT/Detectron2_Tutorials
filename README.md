@@ -12,3 +12,7 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
 3. Installation CUDA (≥10) - _This tutorial is for CUDA-11.4_
    - Go to [NVIDIA Developer](https://developer.nvidia.com/cuda-downloads).
    - Select Compatible Variables `(Linux > x86_64 > Ubuntu > 18.04 > deb[local])`
+   - Download Required Version of CUDA
+      ```
+      wget https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installers/cuda-repo-ubuntu1804-11-4-local_11.4.0-470.42.01-1_amd64.deb
+      ```
