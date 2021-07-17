@@ -71,3 +71,63 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
      ```
      If still faceing any problem, Log out and log in again
 5. Create Virtual Environment
+   - Create Environment 
+     ```
+     virtualenv -p pytho3 {ENV-NAME}
+     ```
+     Replace `{ENV-NAME}` with Environment Name you want
+   - Activate the environment 
+     ```
+     {ENV-NAME}/bin/activate
+     ```
+     Now you will have your `{ENV-NAME}` in begining of your command line
+6. Download **Detectron2**
+   Clone Detectron2 repository 
+   ```
+   git clone https://github.com/facebookresearch/detectron2.git
+   cd detectron2
+   ```
+7. Downloading Pytorch compatible with your CUDA Version, as we downloaded CUDA-11.4, so we download Pytorch with CUDA-11.1.
+   - Go to [Pytorch](https://pytorch.org/)
+   - Setect your variables `Stable(1.9.0) > Linux > Pip > Python > CUDA 11.1`
+   - You will find command
+     ```
+     pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+     ```
+     Now you have same version of CUDA and Pytorch compatible CUDA Version
+   - To validate previous condition, Run following command 
+     ```
+     Run > python -m detectron2.utils.collect_env
+     ```
+     You can Check CUDA compiler & Pytorch built CUDA Runtime same
+8. Install Required Libraries and Packages 
+   - OpenCV
+     ```
+     Run > pip install opencv-python 
+     ```
+   - Cython
+     ```
+     Run > pip install cython
+     ```
+   - COCO Python API
+     ```
+     Run > pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+     ```
+9. Check GCC Version 
+   ```
+   gcc --version
+   ```
+   should be greater than 7.
+10. Build Detectron2
+    ```
+    python -m pip install -e detectron
+    ```
+    Will cause problem if you don't have same version of Pytorch with your CUDA
+    You can validate succesfull build by finding "build" folder in directory.
+    (For Linux Users) You can find pre-build Detectron2 from [Pre Build Detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html#install-pre-built-detectron2-linux-only)
+    
+11. Now you can Get Started with Detectron :-) 
+
+
+
+
