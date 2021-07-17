@@ -16,3 +16,16 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
       ```
       wget https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installers/cuda-repo-ubuntu1804-11-4-local_11.4.0-470.42.01-1_amd64.deb
       ```
+   - Install Downloaded Packge 
+     ```
+     sudo dpkg -i cuda-repo-ubuntu1804-11-4-local_11.4.0-470.42.01-1_amd64.deb
+     ```
+   - Adding Key 
+     ```
+     sudo apt-key add /var/cuda-repo-ubuntu1804-11-4-local/7fa2af80.pub
+     ```
+   - Installation of CUDA-11.4
+     ```
+     sudo apt-key add /var/cuda-repo-ubuntu1804-11-4-local/7fa2af80.pub
+     ```
+   - 
