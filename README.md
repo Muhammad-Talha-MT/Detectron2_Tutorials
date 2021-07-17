@@ -87,7 +87,7 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
    git clone https://github.com/facebookresearch/detectron2.git
    cd detectron2
    ```
-7. Downloading Pytorch compatible with your CUDA Version, as we downloaded CUDA-11.4, so we download Pytorch with CUDA-11.1.
+7. Downloading Pytorch compatible with your CUDA Version, as we downloaded CUDA-11.4, so we download Pytorch with CUDA-11.4.
    - Go to [Pytorch](https://pytorch.org/)
    - Setect your variables `Stable(1.9.0) > Linux > Pip > Python > CUDA 11.1`
    - You will find command
