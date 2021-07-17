@@ -1,5 +1,5 @@
-# Detectron2_Tutorials
-This is repository for basic tutorials to configure detectron2 i.e. an open source library of object detection by Facebook
+# Detectron2 Tutorials
+This is repository for basic tutorials to configure detectron2 i.e. an open source library of object detection by Facebook [Detectron2](https://github.com/facebookresearch/detectron2)
 
 ## Installation Guide
 
@@ -126,7 +126,7 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
     You can validate succesfull build by finding "build" folder in directory.
     (For Linux Users) You can find pre-build Detectron2 from [Pre Build Detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html#install-pre-built-detectron2-linux-only)
     
-11. Now you can Get Started with Detectron :-) 
+11. Now you can Get Started with Detectron :-). Further Documentation [Detectron2 Documentation](https://detectron2.readthedocs.io/en/latest/index.html)
 
 
 
