@@ -31,15 +31,15 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
      ```
 4. Setting CUDA Environment
    - Validate CUDA Installation 
-   ```
-   cd /usr/local
-   ls
-   ```
-   You will find installed CUDA in listed files
-5. Go to your user directory 
-   ```
-   cd /home/{USER}
-   ```
+      ```
+      cd /usr/local
+      ls
+      ```
+      You will find installed CUDA in listed files
+   - Go to your user directory 
+      ```
+      cd /home/{USER}
+      ```
    Replace `{USER}` with your user name
    - Add Environment Variables in `.bashrc` file in `/home/{USER}`
       ```
