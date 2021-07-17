@@ -26,6 +26,34 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
      ```
    - Installation of CUDA-11.4
      ```
-     sudo apt-key add /var/cuda-repo-ubuntu1804-11-4-local/7fa2af80.pub
+     sudo apt-get update
+     sudo apt install cuda-11.4
      ```
-   - 
+4. Setting CUDA Environment
+   - Validate CUDA Installation 
+   ```
+   cd /usr/local
+   ls
+   ```
+   You will find installed CUDA in listed files
+5. Go to your user directory 
+   ```
+   cd /home/{USER}
+   ```
+   Replace `{USER}` with your user name
+   - Add Environment Variables in `.bashrc` file in `/home/{USER}`
+      ```
+      nano /home/{USER}/.bashrc
+      ```
+      Editor will be opened in your command line
+   - Add these lines in file
+      ```
+      export PATH="/usr/local/cuda-11.4/bin:$PATH"
+      export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda/lib64
+      ```
+      `Ctrl + X` > `Y` > `Enter`
+   - Add variables in `/etc/environment`
+      ```
+      sudo nano/etc/environment
+      ```
+   - Add Following lines 
