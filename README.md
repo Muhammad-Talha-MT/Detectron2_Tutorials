@@ -40,7 +40,7 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
       ```
       cd /home/{USER}
       ```
-   Replace `{USER}` with your user name
+      Replace `{USER}` with your user name
    - Add Environment Variables in `.bashrc` file in `/home/{USER}`
       ```
       nano /home/{USER}/.bashrc
@@ -57,3 +57,17 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
       sudo nano/etc/environment
       ```
    - Add Following lines 
+     If variables already there, so add this part at the end of line of `PATH` inside the `" "` inverted commas
+     ```
+     :/usr/local/cuda-11.4/bin
+     ```
+     If nothing there, just paste whole line there
+     ```
+     PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda-11.4/bin"
+     ```
+   - Run to check CUDA Version 
+     ```
+     nvcc --version
+     ```
+     If still faceing any problem, Log out and log in again
+5. Create Virtual Environment
