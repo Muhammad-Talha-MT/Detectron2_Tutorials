@@ -1,4 +1,4 @@
-# Data Preperation for Detectron2
+# Data Preparation for Detectron2
 
 Detectron2 is open source object detection library by Facebook. We can train wide range of model's available in it. This tutorial is about training custorm model using Detectron2. 
 In this way need dataset in coco formate. As we know, in object detection we need images along with ground truth area (i.e. bounding boxes around objects) and class of object.
