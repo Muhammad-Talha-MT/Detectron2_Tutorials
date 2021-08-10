@@ -61,6 +61,6 @@ Detectron2 needs COCO formate dataset specifically. COCO formate is descriped be
    ]
 }
 ```
-If you want to learn more about COCO annotation formate [Eric Hofesmann](https://towardsdatascience.com/how-to-work-with-object-detection-datasets-in-coco-format-9bf4fb5848a4#)
+If you want to learn more about COCO annotation formate, you must read[Eric Hofesmann's](https://towardsdatascience.com/how-to-work-with-object-detection-datasets-in-coco-format-9bf4fb5848a4#) blog. 
 
-here is question, how we can create this coco formate. There are multiple labling tools avaliable http://roboflow.com/ and https://github.com/tzutalin/labelImg etc.
+here is question, how we can create this coco formate. There are multiple labling tools avaliable [Roboflow](http://roboflow.com/) and [LableImg](https://github.com/tzutalin/labelImg) etc.
