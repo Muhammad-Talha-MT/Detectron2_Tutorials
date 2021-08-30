@@ -110,7 +110,13 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--mode', type=str, required=True, help='Training/Inference')
     parser.add_argument('-i', '--image', type=str, help='Path to image for inference')
     args = parser.parse_args()
-
+    '''
+    python detectron2.py -c <path of config file> 
+                         -m <train/test> 
+                         -train <path to training data directory> 
+                         -test <path to validation data directory> 
+                         -i <test image>
+    '''
 
 
     
