@@ -120,7 +120,7 @@ This is repository for basic tutorials to configure detectron2 i.e. an open sour
    should be greater than 7.
 10. Build Detectron2
     ```
-    python -m pip install -e detectron
+    python -m pip install -e detectron2
     ```
     Will cause problem if you don't have same version of Pytorch with your CUDA
     You can validate succesfull build by finding "build" folder in directory.
